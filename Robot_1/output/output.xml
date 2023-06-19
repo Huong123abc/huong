@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230613 12:31:06.047" rpa="true" schemaversion="3">
+<suite id="s1" name="New folder" source="d:\HuongHNU\New folder">
+<suite id="s1-s1" name="Tasks" source="d:\HuongHNU\New folder\tasks.robot">
+<test id="s1-s1-t1" name="Example task" line="11">
+<kw name="Example keyword" library="keywords">
+<kw name="Log" library="BuiltIn">
+<arg>Today is ${TODAY}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 12:31:06.174" level="INFO">Today is 2023-06-13 12:31:06.164664</msg>
+<status status="PASS" starttime="20230613 12:31:06.173" endtime="20230613 12:31:06.184"/>
+</kw>
+<status status="PASS" starttime="20230613 12:31:06.172" endtime="20230613 12:31:06.184"/>
+</kw>
+<kw name="Example Python Keyword" library="MyLibrary">
+<msg timestamp="20230613 12:31:06.187" level="INFO">This is Python!</msg>
+<msg timestamp="20230613 12:31:06.187" level="INFO">... and today is 2023-06-13 12:31:06.164664</msg>
+<status status="PASS" starttime="20230613 12:31:06.186" endtime="20230613 12:31:06.187"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${TODAY}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 12:31:06.188" level="INFO">2023-06-13 12:31:06.164664</msg>
+<status status="PASS" starttime="20230613 12:31:06.187" endtime="20230613 12:31:06.188"/>
+</kw>
+<status status="PASS" starttime="20230613 12:31:06.171" endtime="20230613 12:31:06.189"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230613 12:31:06.142" endtime="20230613 12:31:06.193"/>
+</suite>
+<status status="PASS" starttime="20230613 12:31:06.049" endtime="20230613 12:31:06.198"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="New folder">New folder</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tasks">New folder.Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
