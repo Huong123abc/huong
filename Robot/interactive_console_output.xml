@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230617 19:57:56.366" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\VBPO-1\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Set Variable" library="BuiltIn">
+<var>${zip_file_name}</var>
+<arg>${OUTPUT_DIR}/PDFs.zip</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230617 19:57:56.859" level="INFO">${zip_file_name} = d:\HuongHNU\Robot/PDFs.zip</msg>
+<status status="PASS" starttime="20230617 19:57:56.858" endtime="20230617 19:57:56.859"/>
+</kw>
+<kw name="Archive Folder With Zip">
+<arg>D:/HuongHNU/Robot</arg>
+<arg>pdf.zip</arg>
+<msg timestamp="20230617 19:57:56.862" level="FAIL">No keyword with name 'Archive Folder With Zip' found.</msg>
+<status status="FAIL" starttime="20230617 19:57:56.862" endtime="20230617 19:57:56.862"/>
+</kw>
+<status status="PASS" starttime="20230617 19:57:56.403" endtime="20230617 19:57:58.358"/>
+</kw>
+<status status="PASS" starttime="20230617 19:57:56.403" endtime="20230617 19:57:58.359"/>
+</test>
+<status status="PASS" starttime="20230617 19:57:56.367" endtime="20230617 19:57:58.360"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
